@@ -2,8 +2,10 @@
 This react library provides themes which can be consumed by other components.
 
 ## Background
-As I was working on the ui-layout-manager and component library, I needed a way to set the themes across all the components. This library was created as a way to unify themes across all our components. The themes will be defined in a figma design document, then imported into the library and exposed to whoever consumes this library. 
+While working on the UI Layout Manager and component library, the need for a consistent theming system across all components because evident. To address this, I created a library that centralizes and unifies themes for reuse throughout our UI.
 
-In addition to the color scheme, I am also planning on formalizing the typography used in our UI's using this library.
+Themes are defined in a Figma design document and then imported into the library, making them easily accessible to any consumer. There are ways to export themes defined in a figma document and import them into this provider, I haven't explored it as much as I want to yet but I will do that as this library is defined further.
+
+In addition to color schemes, this library will also formalize the typography used across our UIs to ensure visual consistency and maintainability.
 
 More to come.
